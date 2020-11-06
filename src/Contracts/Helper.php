@@ -1,6 +1,6 @@
 <?php
 
-namespace NinePay\Bidv\Contracts;
+namespace Payment\Bidv\Contracts;
 
 trait Helper
 {
@@ -61,7 +61,7 @@ trait Helper
             'Merchant_Id' => $this->config['merchant_id'],
         ];
 
-        $param = $begin + $param;
+        $param = $param + $begin;
 
         $param['Secure_Code'] = $this->buildSign($param, $type);
 

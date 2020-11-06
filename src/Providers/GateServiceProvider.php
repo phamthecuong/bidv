@@ -1,5 +1,5 @@
 <?php
-namespace NinePay\Bidv\Providers;
+namespace Payment\Bidv\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

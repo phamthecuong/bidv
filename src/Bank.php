@@ -1,5 +1,5 @@
 <?php
-namespace NinePay\Bidv;
+namespace Payment\Bidv;
 
 use NinePay\Bidv\Contracts\Api;
 use NinePay\Bidv\Contracts\IBank;

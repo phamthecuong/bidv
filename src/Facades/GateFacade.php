@@ -1,9 +1,9 @@
 <?php
 
-namespace NinePay\Bidv\Facades;
+namespace Payment\Bidv\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use NinePay\Bidv\Gate;
+use Payment\Bidv\Gate;
 
 /**
  * Class AssetsFacade.

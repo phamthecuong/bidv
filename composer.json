@@ -22,16 +22,16 @@
     },
     "autoload": {
         "psr-4": {
-            "NinePay\\Bidv\\": "src/"
+            "Payment\\Bidv\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "NinePay\\Bidv\\Providers\\BankServiceProvider"
+                "Payment\\Bidv\\Providers\\BankServiceProvider"
             ],
             "aliases": {
-                "Bidv": "NinePay\\Bidv\\Facades\\BidvFacade"
+                "BidvBank": "Payment\\Bidv\\Facades\\BidvFacade"
             }
         }
     }

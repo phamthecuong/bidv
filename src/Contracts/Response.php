@@ -1,6 +1,6 @@
 <?php
 
-namespace NinePay\Bidv\Contracts;
+namespace Payment\Bidv\Contracts;
 
 class Response
 {

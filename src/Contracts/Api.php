@@ -1,5 +1,5 @@
 <?php
-namespace NinePay\Bidv\Contracts;
+namespace Payment\Bidv\Contracts;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Log;

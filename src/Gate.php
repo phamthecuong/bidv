@@ -1,9 +1,9 @@
 <?php
-namespace NinePay\Bidv;
+namespace Payment\Bidv;
 
-use NinePay\Bidv\Contracts\Api;
-use NinePay\Bidv\Contracts\IGate;
-use NinePay\Bidv\Contracts\Response;
+use Payment\Bidv\Contracts\Api;
+use Payment\Bidv\Contracts\IGate;
+use Payment\Bidv\Contracts\Response;
 
 class Gate extends Api implements IGate
 {
