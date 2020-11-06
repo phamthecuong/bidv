@@ -3,7 +3,6 @@
     "description": "Laravel/Lumen bidv banking library",
     "type": "library",
     "license": "MIT",
-    "version": "v1.0.0",
     "keywords": [
         "9pay",
         "9pay bidv",
@@ -33,6 +32,9 @@
             "aliases": {
                 "BidvBank": "Payment\\Bidv\\Facades\\BidvFacade"
             }
+        },
+        "branch-alias": {
+            "dev-master": "1.x.x-dev"
         }
     }
 }
