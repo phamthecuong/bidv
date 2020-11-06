@@ -1,9 +1,9 @@
 <?php
 namespace Payment\Bidv;
 
-use NinePay\Bidv\Contracts\Api;
-use NinePay\Bidv\Contracts\IBank;
-use NinePay\Bidv\Contracts\Response;
+use Payment\Bidv\Contracts\Api;
+use Payment\Bidv\Contracts\IBank;
+use Payment\Bidv\Contracts\Response;
 
 class Bank extends Api implements IBank
 {
