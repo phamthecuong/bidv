@@ -49,7 +49,7 @@ abstract class Api
 
 			return $this->transformResponse($response->getBody()->getContents(), $this->typeSign);
 		} catch (\Exception $e) {
-			Log::error('Error call BIDV: ' . $e);
+			Log::error('Error call BIDV___trace:' . $e->getTrace().'__message: '.$e->getMessage());
 
 			return [
 				'RESPONSE_CODE' => 500,
