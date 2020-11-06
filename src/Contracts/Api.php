@@ -33,7 +33,11 @@ abstract class Api
 		try {
 			$param = $this->buildParam($param, $this->typeSign);
 
-			$body = $this->generateValidXmlFromArray($param);
+            Log::info('Params request BIDV', [
+                'params' => $param
+            ]);
+
+            $body = $this->generateValidXmlFromArray($param);
 
 			$client = new Client([
 				'headers' => [
