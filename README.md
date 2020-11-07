@@ -1,1 +1,1 @@
-# php api connect bidv
+# BIDV adapter php
